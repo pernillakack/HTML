@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+</head>
+<body>
+    <h1>Formulär</h1>
+
+    <form>
+
+    <fieldset>
+        <legend>Personlig informatiom:</legend>
+        <label for="Namn">Ditt namn:</label>
+        <br>
+        <input type="text" name="Namn" id="Namn" placeholder="Ange ditt namn här...">
+        <br><br>
+
+        <label for="email">Din e-post:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Ange din e-post..." required>
+        <br>
+
+        <label for="customer-status">Kundstatus:</label><br>
+        <select name="customer-status" id="customer-status">
+            <option value= "" disabled selected>Ange din status...</option>
+            <option value="is-costumer">Ja, är kund</option>
+            <option value="not-costumer">Nej, jag är inte kund</option>
+        </select>
+
+    </fieldset>
+    <br><br>
+
+    <input type="checkbox" name="vehicle1" id="volvo" value="volvo">
+    <label for="volvo">Jag kör Volvo</label>
+    <br><br>
+    <input type="checkbox" name="vehicle2" id="saab" value="saab">
+    <label for="saab">Jag kör Saab</label>
+    <br><br>
+    <input type="checkbox" name="vehicle3" id="toyota" value="toyota">
+    <label for="Toyota">Jag kör Toyota </label>
+    <br><br>
+
+    <input type="password" name="" id="">
+
+        <label for="message">Ditt meddelande</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Skriv ditt meddelande här..."></textarea>
+        <br>
+        <input type="submit" value="Skicka meddelandet">
+   
+    <br><br>
+
+    <input type="radio" name="fruit" id="jordgubbar"value="jordgubbar">
+    <label for="bmw">Jag gillar jordgubbar</label>
+    <br>
+    <input type="radio" name="fruit" value="mango" value="mango">
+    <label for="mango">Jag älskar mango</label>
+    <br>
+    <input type="radio" name="fruit" value="banan" value="banan">
+    <label for="mango">Jag tycker om banan</label>
+
+    </form>
+    
+
+
+    
+    
+</body>
+</html>
