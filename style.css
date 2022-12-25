@@ -2,18 +2,21 @@
 
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: darkolivegreen;
+}
 
 h1 {
     color: deeppink;
 }
 
 p{
-    font-size: 2em;
+    font-size: 1em;
 }
 .text {
-    font-size: 5em;
+    font-size: 1.5em;
 }
 
 #punkt1 {
-    color: brown;
+    color: red;
 }
