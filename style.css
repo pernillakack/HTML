@@ -1,0 +1,19 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: deeppink;
+}
+
+p{
+    font-size: 2em;
+}
+.text {
+    font-size: 5em;
+}
+
+#punkt1 {
+    color: brown;
+}
